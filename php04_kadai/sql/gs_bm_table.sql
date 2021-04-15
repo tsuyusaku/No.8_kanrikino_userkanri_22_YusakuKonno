@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- ホスト: localhost:3306
--- 生成日時: 2021 年 4 月 01 日 13:51
+-- 生成日時: 2021 年 4 月 15 日 15:46
 -- サーバのバージョン： 5.7.32
 -- PHP のバージョン: 7.4.12
 
@@ -46,7 +46,10 @@ INSERT INTO `gs_bm_table` (`id`, `title`, `url`, `isbn`, `comment`, `indate`) VA
 (18, '動かして学ぶ! Laravel開発入門', 'https://www.amazon.co.jp/%E5%8B%95%E3%81%8B%E3%81%97%E3%81%A6%E5%AD%A6%E3%81%B6-Laravel%E9%96%8B%E7%99%BA%E5%85%A5%E9%96%80-NEXT-ONE-%E5%B1%B1%E5%B4%8E/dp/4798168653/ref=sr_1_3?dchild=1&keywords=laravel&qid=1617031005&s=books&sr=1-3', '9784798168654', '山崎校長さすがです！\r\n', '2021-03-30 00:18:13'),
 (23, 'なせこの店で買ってしまうのか', 'https://www.amazon.co.jp/%E3%81%AA%E3%81%9C%E3%81%93%E3%81%AE%E5%BA%97%E3%81%A7%E8%B2%B7%E3%81%A3%E3%81%A6%E3%81%97%E3%81%BE%E3%81%86%E3%81%AE%E3%81%8B-%E3%82%B7%E3%83%A7%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0%E3%81%AE%E7%A7%91%E5%AD%A6-%E3%83%8F%E3%83%A4%E3%82%AB%E3%83%AF%E3%83%BB%E3%83%8E%E3%83%B3%E3%83%95%E3%82%A3%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E6%96%87%E5%BA%AB-%E3%83%91%E3%82%B3%E3%83%BB%E3%82%A2%E3%83%B3%E3%83%80%E3%83%BC%E3%83%92%E3%83%AB/dp/4150504067/ref=sr_1_1?dchild=1&keywords=%E3%81%A4%E3%81%84%E3%81%93%E3%81%AE%E5%BA%97%E3%81%A7&qid=1617032169&s=books&sr=1-1', '9784150504069', 'ショッピングを科学するという考え方がよかった', '2021-03-30 00:45:14'),
 (24, '嫌われる勇気', 'https://www.amazon.co.jp/s?k=%E5%AB%8C%E3%82%8F%E3%82%8C%E3%82%8B%E5%8B%87%E6%B0%97&i=stripbooks', '9784478025819', '嫌われる勇気というタイトルってすげえな', '2021-04-01 22:41:00'),
-(26, '1冊ですべて身につくHTML & CSSとWebデザイン入門講座', 'https://www.amazon.co.jp/1%E5%86%8A%E3%81%A7%E3%81%99%E3%81%B9%E3%81%A6%E8%BA%AB%E3%81%AB%E3%81%A4%E3%81%8FHTML-CSS%E3%81%A8Web%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E5%85%A5%E9%96%80%E8%AC%9B%E5%BA%A7-Mana/dp/4797398892?ref_=Oct_s9_apbd_orec_hd_bw_b2CjI&pf_rd_r=Y4Q2XMB84Z825V2B24KG&pf_rd_p=7d9f90a3-721c-5cb6-a55d-62f29333e52f&pf_rd_s=merchandised-search-10&pf_rd_t=BROWSE&pf_rd_i=525592', '9784797398892', '一応買ってみた', '2021-04-01 22:43:15');
+(26, '1冊ですべて身につくHTML & CSSとWebデザイン入門講座', 'https://www.amazon.co.jp/1%E5%86%8A%E3%81%A7%E3%81%99%E3%81%B9%E3%81%A6%E8%BA%AB%E3%81%AB%E3%81%A4%E3%81%8FHTML-CSS%E3%81%A8Web%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E5%85%A5%E9%96%80%E8%AC%9B%E5%BA%A7-Mana/dp/4797398892?ref_=Oct_s9_apbd_orec_hd_bw_b2CjI&pf_rd_r=Y4Q2XMB84Z825V2B24KG&pf_rd_p=7d9f90a3-721c-5cb6-a55d-62f29333e52f&pf_rd_s=merchandised-search-10&pf_rd_t=BROWSE&pf_rd_i=525592', '9784797398892', '一応買ってみた', '2021-04-01 22:43:15'),
+(27, 'ファクトフルネス', '', '9784478021552', 'おおおおおnaositemita\r\n', '2021-04-08 23:44:46'),
+(31, 'wwwwyyyyy', 'https://www.test.com', '9784822289607', 'uuuuuyyyyyyyyttt\r\n', '2021-04-11 18:23:15'),
+(33, 'r', 'rr', '0', 'rrr', '2021-04-11 18:23:33');
 
 --
 -- ダンプしたテーブルのインデックス
@@ -66,7 +69,7 @@ ALTER TABLE `gs_bm_table`
 -- テーブルの AUTO_INCREMENT `gs_bm_table`
 --
 ALTER TABLE `gs_bm_table`
-  MODIFY `id` int(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
+  MODIFY `id` int(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
